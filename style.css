@@ -10,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(#463C35ff, #ECCBAEff);
+    background: linear-gradient(#2b1055, #ECCBAEff);
 }
 
 header {
@@ -22,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10000;
 }
 
 .logo {
@@ -54,5 +55,21 @@ header ul li a {
 header ul li a:hover,
 header ul li a.active {
     background: #fff;
-    color: #463C35ff;
+    color: #2b1055;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
