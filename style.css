@@ -5,11 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 
 }
 
 body {
     min-height: 100vh;
+    overflow-x: hidden;
     background: linear-gradient(#2b1055, #ECCBAEff);
 }
 
@@ -103,7 +105,7 @@ section img {
     
 }
 
-#btn {
+#btn_explore {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -114,7 +116,7 @@ section img {
     z-index: 9;
 }
 
-#btn:hover {
+#btn_explore:hover {
     opacity: 0.9;
 }
 
