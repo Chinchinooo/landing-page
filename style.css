@@ -15,7 +15,7 @@ body {
     background: linear-gradient(#2b1055, #ECCBAEff);
 }
 
-header {
+/* header {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,9 +25,9 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
-}
+} */
 
-.logo {
+/* .logo {
     color: #fff;
     font-weight: 700;
     text-decoration: none;
@@ -35,8 +35,8 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
-header ul {
+ */
+/* header ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ header ul li a:hover,
 header ul li a.active {
     background: #fff;
     color: #2b1055;
-}
+} */
 
 section {
     position: relative;
