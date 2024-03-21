@@ -60,6 +60,11 @@ header ul li a.active {
     color: #2b1055;
 } */
 
+.nav-item {
+    margin-left: 1rem;
+    font-size: medium;
+}
+
 section {
     position: relative;
     width: 100%;
