@@ -144,10 +144,11 @@ section.hero .text {
     font-size: 48px;
     line-height: 73px;
     color: #fff;
+    margin-top: 65px;
 }
 
 .buttons1 {
-    padding-top: 69px;
+    padding-top: 2em;
 }
 
 .buttons1 .btn {
@@ -156,11 +157,12 @@ section.hero .text {
     line-height: 24px;
 } 
 
-/* section.hero .btn-primary {
-    background-color: #2b1055;
-    outline: #2b1055;
-} */
+section.hero #btn_project {
+    background-color: #4a1c95;
+    color: #fff;
+}
 
-section.hero #heroimg {
-    height: 450px;
+section.hero #btn_project:hover {
+    background-color:#2b1055;
+    color: #fff;
 }
