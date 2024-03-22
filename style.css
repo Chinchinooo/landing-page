@@ -98,7 +98,6 @@ section.home img {
     z-index: 9;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-100px);
-    
 }
 
 #btn_explore {
@@ -133,19 +132,25 @@ section.home img {
     color: #fff;
 } */
 
-section.hero {
+section.about {
     position: relative;
     background-color: #061019;
     padding: 80px 0;
 }
 
-section.hero .text {
+section.about .name {
     font-weight: 700;
     font-size: 48px;
     line-height: 73px;
     color: #fff;
     margin-top: 65px;
 }
+
+section.about .intro {
+    color: #fff;
+    text-align: justify;
+}
+
 
 .buttons1 {
     padding-top: 2em;
@@ -157,12 +162,12 @@ section.hero .text {
     line-height: 24px;
 } 
 
-section.hero #btn_project {
+section.about #btn_project {
     background-color: #4a1c95;
     color: #fff;
 }
 
-section.hero #btn_project:hover {
+section.about #btn_project:hover {
     background-color:#2b1055;
     color: #fff;
 }
