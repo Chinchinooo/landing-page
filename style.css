@@ -175,3 +175,22 @@ section.about #btn_project:hover {
 section.portfolio {
     background-color: #061019;
 }
+
+section.portfolio .text-portfolio {
+    padding: 134px 0;
+}
+
+section.portfolio h5 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
+}
+
+section.portfolio p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #fff;
+    padding-top: 20px;
+}
