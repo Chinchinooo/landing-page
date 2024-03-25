@@ -171,3 +171,7 @@ section.about #btn_project:hover {
     background-color:#2b1055;
     color: #fff;
 }
+
+section.portfolio {
+    background-color: #061019;
+}
