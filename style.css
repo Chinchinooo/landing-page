@@ -172,6 +172,10 @@ section.about #btn_project:hover {
     color: #fff;
 }
 
+section.experience {
+    background-color: #061019;
+}
+
 section.portfolio {
     background-color: #061019;
 }
@@ -193,4 +197,14 @@ section.portfolio p {
     line-height: 28px;
     color: #fff;
     padding-top: 20px;
+}
+
+section.portfolio .portfolio-1 {
+    padding: 130px 0;
+}
+
+section.portfolio #port-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
