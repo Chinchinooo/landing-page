@@ -151,7 +151,6 @@ section.about .intro {
     text-align: justify;
 }
 
-
 .buttons1 {
     padding-top: 2em;
 }
@@ -176,13 +175,23 @@ section.experience {
     background-color: #061019;
 }
 
+section.experience .text-experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 2rem;
+}
+
 section.experience .icon {
     height: 1rem;
+    padding-right: 1rem;
 }
 
 section.experience article {
     display: flex;
     align-items: center;
+    padding: 100px;
 }
 
 section.portfolio {
