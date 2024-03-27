@@ -208,11 +208,6 @@ section.portfolio {
     padding: 1rem;
 }
 
-
-section.portfolio .text-portfolio {
-    padding: 134px 0;
-}
-
 section.portfolio h5 {
     font-size: 42px;
     font-weight: 700;
@@ -236,4 +231,10 @@ section.portfolio #port-img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+section.portfolio .text-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
