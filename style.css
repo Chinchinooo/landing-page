@@ -173,8 +173,6 @@ section.about #btn_project:hover {
 
 section.experience {
     background-color: #061019;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 section.experience .text-experience {
@@ -238,4 +236,17 @@ section.portfolio .text-description {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+section.contact {
+    background-color:#061019;
+}
+
+section.contact h2 {
+    color:#fff;
+}
+
+section.contact .icon {
+    height: 1rem;
+    padding-right: 1rem;
 }
