@@ -176,6 +176,15 @@ section.experience {
     background-color: #061019;
 }
 
+section.experience .icon {
+    height: 1rem;
+}
+
+section.experience article {
+    display: flex;
+    align-items: center;
+}
+
 section.portfolio {
     background-color: #061019;
 }
