@@ -173,6 +173,8 @@ section.about #btn_project:hover {
 
 section.experience {
     background-color: #061019;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 section.experience .text-experience {
@@ -227,10 +229,9 @@ section.portfolio .portfolio-1 {
     padding: 130px 0;
 }
 
-section.portfolio #port-img {
+section.portfolio .img-end {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
 }
 
 section.portfolio .text-description {
