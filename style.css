@@ -250,3 +250,10 @@ section.contact .icon {
     height: 1rem;
     padding-right: 1rem;
 }
+
+section.contact h5 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
+}
