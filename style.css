@@ -94,10 +94,12 @@ section.home img {
     position: absolute;
     color: #fff;
     white-space: nowrap;
-    font-size: 3vw;
     z-index: 9;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-100px);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
 }
 
 #btn_explore {
