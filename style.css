@@ -181,6 +181,10 @@ section.experience .text-experience {
     justify-content: center;
     color: #fff;
     padding: 2rem;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
 }
 
 section.experience .icon {
