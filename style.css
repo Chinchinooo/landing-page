@@ -15,50 +15,9 @@ body {
     background: linear-gradient(#2b1055, #061019, #061019, #061019);
 }
 
-/* header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10000;
-} */
-
-/* .logo {
-    color: #fff;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+#navigation-bar {
+    z-index: 100000;
 }
- */
-/* header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header ul li {
-    list-style: none;
-    margin-left: 20px;
-}
-
-header ul li a {
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #fff;
-    border-radius: 20px;
-}
-
-header ul li a:hover,
-header ul li a.active {
-    background: #fff;
-    color: #2b1055;
-} */
 
 .nav-item {
     margin-left: 1rem;
@@ -100,6 +59,13 @@ section.home img {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 600px) {
+    #text {
+        font-size: 24px; /* Adjust font size for phones */
+    }
 }
 
 #btn_explore {
@@ -199,6 +165,7 @@ section.portfolio h5 {
     font-weight: 700;
     line-height: 48px;
     color: #fff;
+    padding-top: 8px;
 }
 
 section.portfolio p {
@@ -206,11 +173,11 @@ section.portfolio p {
     font-weight: 300;
     line-height: 28px;
     color: #fff;
-    padding-top: 20px;
+    margin: 5px 0;
 }
 
-section.portfolio .portfolio-1 {
-    padding: 130px 0;
+section.portfolio .project {
+    padding: 100px 0 0 0;
 }
 
 section.portfolio .img-end {
@@ -279,4 +246,44 @@ section.contact {
     text-align: center;
     color: #fff;
     margin-bottom: 5px;
+  }
+
+  footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+    color: #fff;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+  }
+  
+  .nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
   }

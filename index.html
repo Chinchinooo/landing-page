@@ -11,7 +11,7 @@
   </head>
   <body>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="padding-top: 1.5rem">
+    <nav id="navigation-bar" class="navbar navbar-expand-lg navbar-dark" style="padding-top: 1.5rem">
       <div class="container">
         <div class="navbar-brand">Welcome</div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,6 +26,9 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#portfolio">Project</a>
             </li>
             <li class="nav-item">
@@ -35,6 +38,8 @@
         </div>
       </div>
     </nav>
+
+    <!--Home-->
     <section class="home" id="home">
       <img src="assets/butterfly.png" id="butterfly"/>
       <img src="assets/star.png" id="star"/>
@@ -75,7 +80,7 @@
 
     <!--Experience-->
     <section class="experience" id="experience">
-      <h2 class="title text-experience">Languages</h2>
+      <h2 class="title text-experience">Experience</h2>
       <div class="container">
         <div class="row">
           <!--card-1-->
@@ -174,7 +179,7 @@
     <section class="portfolio" id="portfolio">
       <div class="container">
         <!--Port-1-->
-        <div class="row portfolio-1">
+        <div class="row project portfolio-1">
           <div class="col-md-6 ">
             <!--Text-->
             <div class="text-portfolio">
@@ -188,7 +193,7 @@
           </div>
         </div>
         <!--Port-2-->
-        <div class="row portfolio-2">
+        <div class="row project portfolio-2">
              <!--Image-->
           <div class="col-md-6">
             <img src="assets/port1.jpg" alt="image" class="w-75">
@@ -227,6 +232,20 @@
       </div>
     </div>
   </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p style="font-size: small; color: grey">Copyright &#169; 2024 Julia. All Rights Reserved.</p>
+  </footer>
 
     <script>
       let butterfly = document.getElementById('butterfly');
