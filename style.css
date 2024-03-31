@@ -12,7 +12,7 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(#2b1055, #061019);
+    background: linear-gradient(#2b1055, #061019, #061019, #061019);
 }
 
 /* header {
@@ -182,7 +182,7 @@ section.experience .text-experience {
     align-items: center;
     justify-content: center;
     color: #fff;
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: 42px;
     font-weight: 700;
     line-height: 48px;
@@ -246,6 +246,7 @@ section.portfolio .text-description {
 
 section.contact {
     background-color:#061019;
+    margin: 100px
 }
 
 section.contact h2 {
@@ -265,7 +266,7 @@ section.contact h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 6rem 0px 1rem 0px;
+    margin: 0px 0px 1.5rem 0px;
 }
 
 section.contact .card-body {
