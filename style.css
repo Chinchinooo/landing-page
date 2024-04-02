@@ -64,10 +64,6 @@ section.home img {
   #open-text {
     font-size: 24px; /* Adjust font size for phones */
   }
-
-  .name {
-    font-size: 16px;
-  }
 }
 
 #btn_explore {
@@ -91,10 +87,14 @@ section.about {
   padding: 80px 0;
 }
 
+section.about .buttons1 img {
+  height: 2em;
+}
+
 section.about .name {
+  font-size: 40px;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 73px;
+  line-height: 48px;
   color: #fff;
   margin-top: 65px;
 }
