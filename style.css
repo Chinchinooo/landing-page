@@ -64,6 +64,11 @@ section.home img {
   #open-text {
     font-size: 24px; /* Adjust font size for phones */
   }
+
+  #heroimg {
+    width: auto;
+    padding: 0;
+  }
 }
 
 #btn_explore {
@@ -102,6 +107,16 @@ section.about .name {
 section.about .intro {
   color: #fff;
   text-align: justify;
+}
+
+#heroimg {
+  height: 300px;
+}
+
+#profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttons1 {
