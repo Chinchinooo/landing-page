@@ -208,6 +208,12 @@ section.portfolio .text-description {
   justify-content: center;
 }
 
+section.portfolio .port-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-icon {
   height: 2.5rem;
   padding-right: 1rem;
