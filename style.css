@@ -194,7 +194,7 @@ section.portfolio p {
 }
 
 section.portfolio .project {
-  padding: 100px 0 0 0;
+  padding: 75px 0 0 0;
 }
 
 section.portfolio .img-end {
@@ -227,7 +227,8 @@ section.contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 55vh;
+  margin-top: 40px;
 }
 
 section.contact .container {
