@@ -294,6 +294,10 @@ section.contact .container {
   .linkedin a {
     font-size: small;
   }
+
+  section.portfolio .img-end {
+    padding: 10px;
+  }
 }
 
 .title {
