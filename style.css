@@ -71,6 +71,10 @@ section.home img {
   }
 }
 
+#btn_button:hover {
+  text-decoration: none;
+}
+
 #btn_explore {
   text-decoration: none;
   display: inline-block;
@@ -92,7 +96,7 @@ section.about {
   padding: 80px 0;
 }
 
-section.about .buttons1 img {
+.buttons1 img {
   height: 2em;
 }
 
@@ -129,12 +133,12 @@ section.about .intro {
   line-height: 24px;
 }
 
-section.about #btn_project {
+#btn_project {
   background-color: #4a1c95;
   color: #fff;
 }
 
-section.about #btn_project:hover {
+#btn_project:hover {
   background-color: #2b1055;
   color: #fff;
 }
@@ -199,7 +203,9 @@ section.portfolio .project {
 
 section.portfolio .img-end {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
 section.portfolio .text-description {
@@ -228,7 +234,11 @@ section.contact {
   justify-content: center;
   flex-direction: column;
   height: 55vh;
-  margin-top: 40px;
+  margin-top: 50px;
+}
+.btn-journaley {
+  height: 2.8rem;
+  padding-top: 10px
 }
 
 section.contact .container {
