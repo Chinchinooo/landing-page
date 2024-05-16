@@ -156,9 +156,20 @@ section.experience .text-experience {
   color: #fff;
 }
 
+section.experience article > div {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+}
+
 section.experience .icon {
   height: 1rem;
   padding-right: 1rem;
+}
+
+section.text-experience .h5, h5 {
+  font-size: 18px;
 }
 
 section.experience article {
@@ -167,8 +178,16 @@ section.experience article {
   padding: 1rem;
 }
 
+section.experience .row>* {
+  padding-right: 0;
+}
+
 section.portfolio {
   background-color: #061019;
+}
+
+.bg-dark {
+  border-radius: 10px;
 }
 
 .card-body {
@@ -182,15 +201,15 @@ section.portfolio {
 }
 
 section.portfolio h5 {
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 48px;
+  font-size: 28px;
+  font-weight: 550;
+  line-height: 40px;
   color: #fff;
   padding-top: 8px;
 }
 
 section.portfolio p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 28px;
   color: #fff;
@@ -301,7 +320,7 @@ section.contact .container {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   color: #fff;
 }
