@@ -44,7 +44,7 @@
     </section>
 
     <!--Home-->
-    <section class="home heightview" id="home">
+    <section class="home" id="home">
       <img src="assets/butterfly.png" id="butterfly"/>
       <img src="assets/star.png" id="star"/>
       <img src="assets/mountain_back.png" id="mountain_back"/>
@@ -54,11 +54,11 @@
     </section>
 
     <!--About-->
-    <section class="about hide heightview" id="about">
+    <section class="about hide child" id="about">
       <div class="container">
         <div class="row">
           <!--text-->
-          <div class="col-md-7">
+          <div class="col-md-7 hide child">
             <div>
               <div class="name">
                 Hi, I'm Chin Chin.
@@ -75,7 +75,7 @@
             </div>
           </div>
           <!--image-->
-          <div id="profile-pic" class="col-md-4">  
+          <div id="profile-pic" class="col-md-4 hide child">  
             <img src="assets/me.png" id="heroimg" alt="image" >
           </div>
         </div>
@@ -83,7 +83,7 @@
     </section>
 
     <!--Experience-->
-    <section class="experience hide heightview" id="experience">
+    <section class="experience hide  view" id="experience">
       <h2 class="title text-experience">Experience</h2>
       <div class="container">
         <div class="row child">
@@ -236,11 +236,11 @@
     </section>
 
     <!--Portfolio-->
-    <section class="portfolio heightview" id="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <!--Port-1-->
-        <div class="row project portfolio-1 hide">
-          <div class="col-md-6 port-row">
+        <div class="row project portfolio-1 hide child">
+          <div class="col-md-6 port-row child hide">
             <!--Text-->
             <div class="text-portfolio">
               <h5>Smiley (Face-Detection)</h5>
@@ -251,7 +251,7 @@
             </div>
           </div>
           <!--Image-->
-          <div class="col-md-6 img-end">
+          <div class="col-md-6 img-end child hide">
               <img src="assets/face-detection.png" alt="image" class="w-75">
               <div class="buttons1" id="btn_repo">
                 <a href="https://github.com/Chinchinooo/face-detection" id="btn_project" class="btn btn-*">
@@ -264,8 +264,8 @@
           </div>
         </div>
         <!--Port 2--> 
-        <div class="row project portfolio-1 hide">
-          <div class="col-md-6 port-row">
+        <div class="row project portfolio-1 child hide">
+          <div class="col-md-6 port-row hide child">
             <!--Text-->
             <div class="text-portfolio">
               <h5>Journaley</h5>
@@ -274,7 +274,7 @@
             </div>
           </div>
           <!--Image-->
-          <div class="col-md-6 img-end">
+          <div class="col-md-6 img-end hide child">
               <img src="assets/journaley.png" alt="image" class="w-75">
               <div class="buttons1" id="btn_repo">
                 <a href="https://github.com/Chinchinooo/journaley" id="btn_project" class="btn btn-*">
@@ -304,7 +304,7 @@
     </section>
 
   <!--Contact-->
-  <section class="contact hide heightview" id="contact">
+  <section class="contact hide" id="contact">
     <div class="section__text__p1">Get in Touch</div>
     <h1 class="title">Contact Me</h1>
     <div class="container col-md-4 container-contact">

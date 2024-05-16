@@ -13,10 +13,6 @@ body {
   background: #061019
 }
 
-.heightview {
-  min-height: 80vh;
-}
-
 .child:nth-child(2) {
   transition-delay: 200ms;
 }
@@ -33,7 +29,7 @@ body {
   opacity: 0;
   filter: blur(10px);
   transform: translateX(-100%);
-  transition: all 2s;
+  transition: all 1.6s;
 }
 
 .show {
@@ -139,7 +135,7 @@ section.home img {
 section.about {
   position: relative;
   background-color: #061019;
-  padding: 10px 0px 75px 0px;
+  padding: 10px 0px 120px 0px;
 }
 
 .buttons1 img {
@@ -272,7 +268,7 @@ section.portfolio p {
 }
 
 section.portfolio .project {
-  padding: 85px 0 0 0;
+  padding: 120px 0 0 0;
 }
 
 section.portfolio .img-end {
