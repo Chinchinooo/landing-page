@@ -8,9 +8,12 @@
     <link rel="icon" href="assets/icon-cat.png" type="image/x- icon">
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
+    <script defer src="transition.js">
+    </script>
   </head>
   <body>
     <!--Navigation-->
+    <section class="navigation-bar">
     <nav id="navigation-bar" class="navbar navbar-expand-lg navbar-dark" style="padding-top: 1.5rem">
       <div class="container">
         <div class="navbar-brand">Welcome</div>
@@ -38,9 +41,10 @@
         </div>
       </div>
     </nav>
+    </section>
 
     <!--Home-->
-    <section class="home" id="home">
+    <section class="home heightview" id="home">
       <img src="assets/butterfly.png" id="butterfly"/>
       <img src="assets/star.png" id="star"/>
       <img src="assets/mountain_back.png" id="mountain_back"/>
@@ -50,7 +54,7 @@
     </section>
 
     <!--About-->
-    <section class="about" id="about">
+    <section class="about hide heightview" id="about">
       <div class="container">
         <div class="row">
           <!--text-->
@@ -79,12 +83,12 @@
     </section>
 
     <!--Experience-->
-    <section class="experience" id="experience">
+    <section class="experience hide heightview" id="experience">
       <h2 class="title text-experience">Experience</h2>
       <div class="container">
-        <div class="row">
+        <div class="row child">
           <!--card-1-->
-          <div class="col-md-4">
+          <div class="col-md-4 child hide">
             <div class="card text-white bg-dark mb-3">
               <div class="card-body">
                 <h5 class="card-title">Front-end Development</h5>
@@ -133,7 +137,7 @@
                 </div>
               </div>
           <!--card-2-->
-          <div class="col-md-4">
+          <div class="col-md-4 child hide">
             <div class="card text-white bg-dark mb-3">
               <div class="card-body">
                 <h5 class="card-title">Back-end Development</h5>
@@ -164,7 +168,7 @@
               </div>
             </div>
           </div>
-         <div class="col-md-4">
+         <div class="col-md-4 child hide">
             <div class="card text-white bg-dark mb-3">
               <div class="card-body">
                 <h5 class="card-title">Skills</h5>
@@ -232,17 +236,17 @@
     </section>
 
     <!--Portfolio-->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio heightview" id="portfolio">
       <div class="container">
         <!--Port-1-->
-        <div class="row project portfolio-1">
+        <div class="row project portfolio-1 hide">
           <div class="col-md-6 port-row">
             <!--Text-->
             <div class="text-portfolio">
               <h5>Smiley (Face-Detection)</h5>
               <p>
-                A responsive platform utilizing Clarifai's API for precise facial detection in images.<br><br>
-                Using React to build the front-end while the back-end is using Node.js and Express.js to efficiently handles the endpoints. Deploying using Supabase where PostgreSQL serves as the database, facilitating secure authentication and maintaining user entry history. 
+                A responsive platform utilizing Clarifai's API for precise facial detection in images. Using React to build the front-end while the back-end is using Node.js and Express.js to efficiently handles the endpoints. <br><br>
+                Deploying using Supabase where PostgreSQL serves as the database, facilitating secure authentication and maintaining user entry history. 
               </p>
             </div>
           </div>
@@ -259,7 +263,8 @@
             </div>
           </div>
         </div>
-        <div class="row project portfolio-1">
+        <!--Port 2--> 
+        <div class="row project portfolio-1 hide">
           <div class="col-md-6 port-row">
             <!--Text-->
             <div class="text-portfolio">
@@ -299,7 +304,7 @@
     </section>
 
   <!--Contact-->
-  <section class="contact" id="contact">
+  <section class="contact hide heightview" id="contact">
     <div class="section__text__p1">Get in Touch</div>
     <h1 class="title">Contact Me</h1>
     <div class="container col-md-4 container-contact">
