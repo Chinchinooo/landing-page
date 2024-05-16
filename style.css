@@ -111,6 +111,9 @@ section.about .name {
 section.about .intro {
   color: #fff;
   text-align: justify;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 #heroimg {
@@ -129,7 +132,6 @@ section.about .intro {
 
 .buttons1 .btn {
   font-size: 16px;
-  font-weight: bold;
   line-height: 24px;
 }
 
@@ -178,8 +180,14 @@ section.experience article {
   padding: 1rem;
 }
 
-section.experience .row>* {
+section.experience .row > * {
   padding-right: 0;
+}
+
+@media only screen and (max-width: 720px) {
+  section.experience .row > * {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+  }
 }
 
 section.portfolio {
@@ -214,6 +222,7 @@ section.portfolio p {
   line-height: 28px;
   color: #fff;
   margin: 5px 0;
+  text-align: justify;
 }
 
 section.portfolio .project {
